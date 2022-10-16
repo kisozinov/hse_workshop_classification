@@ -3,6 +3,8 @@ hse_workshop_classification
 
 Building ML project using cookiecutter template and DVC
 
+Работу выполнили Хорев Егор и Созинов Кирилл
+
 Project Organization
 ------------
 
