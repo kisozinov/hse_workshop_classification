@@ -1,0 +1,9 @@
+stages:
+  preprocess_data:
+    cmd: python src/data/make_dataset.py data/raw/train.csv data/processed/train.pkl
+      data/processed/target.pkl ; python src/data/make_dataset.py data/raw/test.csv
+      data/processed/test.pkl
+    deps:
+    - data/raw
+    outs:
+    - data/processed
